@@ -1,6 +1,6 @@
 <?php
 // (A) LOGIN CHECKS
-require "check.php";
+require "2-check.php";
  
 // (B) LOGIN PAGE HTML
 <?php if (isset($failed)) { ?>

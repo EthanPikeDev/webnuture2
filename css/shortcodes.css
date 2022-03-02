@@ -907,6 +907,29 @@ input[type="text"], input[type="search"], textarea {
     border-bottom:1px solid rgba(0,0,0,0.1);
 }
 
+/* new input type for emails*/
+input[type="email"], input[type="search"], textarea {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    padding: 12px 20px 12px 20px;
+    padding-left:0;
+    width: 100%;
+    border-radius:0px;
+    margin-bottom:0px;
+    border:none;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    box-sizing: border-box;
+    background-color:transparent;
+    outline:none;
+    border-bottom:1px solid white;
+}
+
 input[type="search"] {
     padding-left:0px;
 }

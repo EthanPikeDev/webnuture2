@@ -3,9 +3,10 @@
 require "2-check.php";
  
 // (B) LOGIN PAGE HTML
-<?php if (isset($failed)) { ?>
+if (isset($failed)) 
 <div id="bad-login">Invalid user or password.</div>
-<?php } ?>
+
+  ?>
  
 <form id="login-form" method="post" target="_self">
   <h1>PLEASE SIGN IN</h1>
